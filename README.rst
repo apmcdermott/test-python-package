@@ -1,4 +1,4 @@
-Jeremy's forked sample python project
+Amanda's forked sample python project
 =====================================
 
 A sample project set up based on the `pypa sample project

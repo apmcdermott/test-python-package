@@ -14,22 +14,22 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='katzj-test',
+    name='apmcdermott-test',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
     version='0.0.1',
 
-    description='katzj Test Python project',
+    description='apmcdermott Test Python project',
     long_description=long_description,
 
     # The project's main homepage.
-    url='https://github.com/katzj/test-python-package',
+    url='https://github.com/apmcdermott/test-python-package',
 
     # Author details
-    author='Jeremy Katz',
-    author_email='jeremy@katzbox.net',
+    author='Amanda McDermott',
+    author_email='amanda.p.mcdermott@gmail.com',
 
     # Choose your license
     license='MIT',
@@ -85,7 +85,7 @@ setup(
     # installed, specify them here.  If using Python 2.6 or less, then these
     # have to be included in MANIFEST.in as well.
     package_data={
-        'katzj': ['package_data.dat'],
+        'apmcdermott': ['package_data.dat'],
     },
 
     # Although 'package_data' is the preferred approach, in some case you may
@@ -99,7 +99,7 @@ setup(
     # pip to create the appropriate form of executable for the target platform.
     entry_points={
         'console_scripts': [
-            'katzj=katzj:main',
+            'apmcdermott=apmcdermott:main',
         ],
     },
 )
